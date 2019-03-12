@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="google_news">Google News</string>
+    <string name="buzzfeed">Buzzfeed</string>
+    <string name="bitcoin">Bitcoin</string>
+    <string name="bbc_news">BBC News</string>
+</resources>

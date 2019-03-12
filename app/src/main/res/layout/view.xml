@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:actionBarSize"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <Button
+        android:id="@+id/google_news"
+        android:layout_width="0dp"
+        android:layout_height="?android:actionBarSize"
+        android:layout_weight="31"
+        android:background="@color/colorPrimary"
+        android:elevation="0dp"
+        android:text="@string/google_news"
+        android:fontFamily="monospace"/>
+
+    <Button
+        android:id="@+id/buzzfeed"
+        android:layout_width="0dp"
+        android:layout_height="?android:actionBarSize"
+        android:layout_weight="23"
+        android:background="@color/colorPrimary"
+        android:elevation="0dp"
+        android:text="@string/buzzfeed"
+        android:fontFamily="monospace"/>
+
+    <Button
+        android:id="@+id/bitcoin"
+        android:layout_width="0dp"
+        android:layout_height="?android:actionBarSize"
+        android:layout_weight="23"
+        android:background="@color/colorPrimary"
+        android:elevation="0dp"
+        android:text="@string/bitcoin"
+        android:fontFamily="monospace"/>
+
+    <Button
+        android:id="@+id/bbc_news"
+        android:layout_width="0dp"
+        android:layout_height="?android:actionBarSize"
+        android:layout_weight="23"
+        android:background="@color/colorPrimary"
+        android:elevation="0dp"
+        android:text="@string/bbc_news"
+        android:fontFamily="monospace"/>
+</LinearLayout>
